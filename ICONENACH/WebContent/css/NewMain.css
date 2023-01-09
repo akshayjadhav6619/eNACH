@@ -1,0 +1,409 @@
+/* ------------- START -- CSSTerm.com Simple Horizontal DropDown CSS menu ------------------- */
+.drop_menu {
+	background:url(../images/top-menu-bg.png) repeat-x top;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	height:33px;
+}
+.drop_menu li { float:left;}
+.drop_menu li a { padding:9px 20px; display:block; color:#000; text-decoration:none; font:14px arial, verdana, sans-serif; border-bottom:dotted 1px #000000; 
+}
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+.drop_menu li:hover {position:relative; background:url(../images/overmenu.png) repeat-x bottom; /*background:#36a3c0;*/}
+.drop_menu li:hover ul {
+	left:0px;
+	top:30px;
+/*	background:#FFF;*/
+	padding:0px;
+}
+.drop_menu li:hover ul li a { padding:5px; display:block; width:160px; text-indent:0px; background-color:#fde89c; color:#000; 
+}
+.drop_menu li:hover ul li a:hover { color:#000; background:#fdf3d0; 
+}
+
+/* Submenu Level 2*/
+.drop_menu ul ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+.drop_menu li li:hover { position:relative; background:#aadfd8; }
+/* --------- END -- CSSTerm.com Simple Horizontal DropDown CSS menu --------------*/
+
+
+
+/*=====================================================================*/
+.button {
+    background-color: #1BA79C; /* Purple */
+    border: 1px solid #009999;
+    color: white;
+    padding: 5px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.buttons {
+    background:#1BA79C;
+	border:1px solid #FF6600;
+}
+.button1:hover {
+    background-color: #007928;
+    color: white;
+}
+.button2 {
+    background-color: #FF9900; 
+    color: black; 
+    border: 1px solid #ff9900;
+}
+.button2:hover {
+    background-color: #ff0000;
+    color: white;
+}
+/*=====================================================================*/
+
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+table.mytableClass { border-color: #ed3338; border-width: 0 0 1px 1px; border-style: dashed; background:#FFF; 
+	}
+	
+.mytableClass td {
+	white-space: nowrap;
+	margin: 0;
+	border-color: #ed3338;
+	border-width: 1px 1px 0 0;
+	border-style: dashed;
+	padding:10px;
+	}
+.mytableClass th { border-color: #ed3338; border-width: 1px 1px 0 0; border-style: dashed; padding:7px 5px 7px 5px; text-align:center; height:25px; background-color:#1c1b57; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#FFF; font-size:16px; font-weight:normal; 
+	}	
+.paragraph {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#371748;
+	font-size:13px;
+	text-align:left;
+}
+.paragraph a {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#000;
+	font-size:13px;
+	text-decoration:none;
+}
+.paragraph a:hover {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#000;
+	font-size:13px;
+}
+.input-n1 { background:url(../images/input_bg.jpg) repeat-x; height:18px; padding:2px; font-size:Arial, Helvetica, sans-serif; border:1px #1d4e9e solid; margin:3px 0px 3px 3px; min-width:150px; background-color:#FFF; 
+}
+.table_1_outer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:1px #952300 solid;
+	border-collapse:collapse;
+	/*background:url(../images/table_bg.JPG) repeat-x;*/
+}
+.table_1_outer td {
+	border:1px #fae6e0 solid;
+	padding:3px;
+	padding-right:10px;
+	padding-left:10px;
+}
+.table_1_inn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:1px #015881 solid;
+	margin:10px;
+	border-collapse:collapse;
+}
+.table_1_inn td {
+	border:1px #015881 solid;
+	padding:3px;
+}
+.button_1 {
+	background:url(../images/button_split.jpg) repeat-x;
+	height:30px;
+	padding:5px;
+	border:0px;
+}
+.td_bg {
+	background:url(../images/td_bg_2.jpg) repeat-x;
+	height:26px;
+	font-size:10px;
+	color:#000;
+	font-weight:bold;
+}
+.td_bg_2 {
+	background:url(../images/td_bg_2.jpg) repeat-x;
+	height:20px;
+	font-size:10px;
+	color:#000;
+	font-weight:bold;
+}
+
+.input_bg_02 {
+	background:url(../images/input_bg_02.jpg) repeat-x;
+	height:20px;
+	width:190px;
+	padding-bottom:0px;
+	padding-left:3px;
+	padding-top:3px;
+	font-size:12px;
+	border:1px #7a9400 solid;
+}
+.input_bg_03 { font-family: Arial, Helvetica, sans-serif; font-size:15px; color:#000; background:#FFF; height:22px; padding-bottom:0px; padding-left:3px; padding-top:5px; font-size:11px; border:1px #FFF solid; 
+}
+.text{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+.text a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+}
+.text a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	text-decoration:underline;
+}
+.blue_heading{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#276279;
+}
+.white_heading{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color:#FFF;
+}
+.text_white{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ffffff;
+}
+.text_white a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ffffff;
+	text-decoration:none;
+}
+.text_white a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ffffff;
+	text-decoration:underline;
+}
+/*--------------------------------CSS 2-------------------------------------------------*/
+.page-name {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#ab180e;
+	font-size:16px;
+}
+
+
+table.chemTableClass {
+	border-width: 0px 0px 1px 1px;
+ 	border-spacing: 0;
+ 	border-collapse: collapse;
+ 	border-style: solid;
+	border-color:#CCC;
+}
+.chemTableClass td {
+	text-align:center;
+	white-space: nowrap;
+ 	margin: 0;
+ 	padding: 0px 8px 0px 8px;
+ 	border-width: 1px 1px 0 0;
+ 	border-style: solid;
+	border-color:#CCC;
+	}
+
+table.pipe {
+	border-width: 1px 1px 1px 1px;
+ 	border-spacing: 0;
+ 	border-collapse: collapse;
+ 	border-style: solid;
+	border-color:#CCC;
+}
+.pipe tr {
+ 	border-width: 1px 1px 1px 1px;
+ 	border-style: solid;
+	border-color:#CCC;
+	}
+.pipe td {
+	text-align:center;
+	white-space: nowrap;
+ 	margin: 0;
+ 	padding: 4px;
+ 	border-width: 0px 1px 0px 0px;
+	border-color:#CCC;
+	border-right-style:dashed;
+	}
+.pipe th {
+	text-align:center;
+ 	white-space: nowrap;
+ 	margin: 0;
+ 	padding: 4px;
+ 	border-width: 0px 1px 0px 0px;
+	border-color:#CCC;
+	border-right-style:solid;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:100;
+	}
+	
+	table.supply {
+	border-width: 0px 0px 1px 1px;
+ 	border-spacing: 0;
+ 	border-collapse: collapse;
+ 	border-style: solid;
+	border-color:#CCC;
+}
+.supply td {
+	white-space: nowrap;
+ 	margin: 0;
+ 	padding: 4px;
+ 	border-width: 1px 1px 0 0;
+ 	border-style: solid;
+	border-color:#CCC;
+	}
+.supply th {
+ 	margin: 0;
+ 	border-width: 0px 1px 0px 1px;
+	border-style: solid;
+	border-color:#CCC;
+	border-left-color:#FFF;
+	}	
+.blue {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#034f45;
+	font-size:12px;
+	line-height:18px;
+}
+.blue a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#034f45;
+	font-size:12px;
+	text-decoration:none;
+}
+.blue a:hover {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#034f45;
+	font-size:12px;
+	text-align:justify;
+	border-bottom-width:1px;
+	border-bottom-style:dotted;
+	border-bottom-color:#152a42;
+}
+.image-style {
+	text-decoration:none;
+	outline:none;
+}
+.brown-txt {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#8a231e;
+	font-size:16px;
+	line-height:27px;
+	text-align:left;
+}
+.brown-txt a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#8a231e;
+	font-size:16px;
+	border-bottom-width:1px;
+	border-bottom-style:dotted;
+	border-bottom-color:#8a231e;
+}
+.brown-txt a:hover {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#8a231e;
+	font-size:16px;
+	text-align:justify;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	border-bottom-color:#8a231e;
+}
+
+.paragraph-big {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	line-height:18px;
+}
+.paragraph-big a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	line-height:18px;
+	text-decoration:none;
+}
+.paragraph-big a:hover{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#f2fffd;
+	font-size:14px;
+	line-height:18px;
+	text-decoration:none;
+}
+.nounderline {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#4b4652;
+	font-size:12px;
+	line-height:18px;
+	text-align:left;
+}
+.nounderline a {
+	color:#4b4652;
+	text-decoration:none;
+}
+.nounderline a:hover {
+	color:#000;
+}
+.brown-heading {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#8a231e;
+	font-size:13px;
+	font-weight:bold;
+}
+.grey-para {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#8b8994;
+	font-size:11px;
+	line-height:21px;
+}
+.grey-para a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#8b8994;
+	font-size:11px;
+	/*	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	border-bottom-color:#8b8994;*/
+	text-decoration:none;
+}
+.grey-para a:hover {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:11px;
+	text-decoration:none;/*	border-bottom-style:dotted;
+	border-bottom-color:#666;*/
+}

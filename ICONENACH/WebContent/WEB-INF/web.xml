@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ICONENACH</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+
+  
+  
+  
+  <servlet>
+    <servlet-name>MandateCancellationController</servlet-name>
+    <servlet-class>com.intech.lem.controller.MandateCancellationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MandateCancellationController</servlet-name>
+    <url-pattern>/SaveCancellationData</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ControllerStore</servlet-name>
+    <servlet-class>com.intech.lem.controller.ControllerStore</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControllerStore</servlet-name>
+    <url-pattern>/getSave</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>OTPGenerator</servlet-name>
+    <servlet-class>com.intech.lem.controller.OTPGenerator</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OTPGenerator</servlet-name>
+    <url-pattern>/OTPGen</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>OTPValidator</servlet-name>
+    <servlet-class>com.intech.lem.controller.OTPValidator</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OTPValidator</servlet-name>
+    <url-pattern>/OTPValidator</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ResponseStoreController</servlet-name>
+    <servlet-class>com.intech.lem.controller.ResponseStoreController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResponseStoreController</servlet-name>
+    <url-pattern>/ResponseStoreController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RefValidation</servlet-name>
+    <servlet-class>com.intech.lem.controller.RefValidation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RefValidation</servlet-name>
+    <url-pattern>/RefValidator</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ResedOTPGenerator</display-name>
+    <servlet-name>ResedOTPGenerator</servlet-name>
+    <servlet-class>com.intech.lem.controller.ResedOTPGenerator</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResedOTPGenerator</servlet-name>
+    <url-pattern>/ResedOTPGenerator</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This service is for search IFSC using part</description>
+    <display-name>IFSCAutoComplete</display-name>
+    <servlet-name>IFSCAutoComplete</servlet-name>
+    <servlet-class>com.intech.lem.controller.IFSCAutoComplete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IFSCAutoComplete</servlet-name>
+    <url-pattern>/searchifsc</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This service is for search IFSC using part</description>
+    <display-name>IFSCAutoComplete_1</display-name>
+    <servlet-name>IFSCAutoComplete_1</servlet-name>
+    <servlet-class>com.intech.lem.controller.IFSCBankDetailAutoComplete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IFSCAutoComplete_1</servlet-name>
+    <url-pattern> /IFSCBankDetailAutoComplete</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This service is for search bank using part</description>
+    <display-name>BankAutoComplete</display-name>
+    <servlet-name>BankAutoComplete</servlet-name>
+    <servlet-class>com.intech.lem.controller.BankAutoComplete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BankAutoComplete</servlet-name>
+    <url-pattern>/searchback</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SessionListenerWithMetrics</display-name>
+    <servlet-name>SessionListenerWithMetrics</servlet-name>
+    <servlet-class>com.intech.lem.controller.SessionListenerWithMetrics</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionListenerWithMetrics</servlet-name>
+    <url-pattern>/SessionListenerWithMetrics</url-pattern>
+  </servlet-mapping>
+</web-app>

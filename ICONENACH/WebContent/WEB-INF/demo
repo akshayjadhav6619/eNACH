@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HTML5 Login Page</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+	    <link rel="stylesheet" type="text/css" href="css/login.css" />
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-xl-10 col-lg-11 login-container">
+                <div class="row">
+                    <div class="col-lg-7 img-box">
+                        <img src="assets/images/login-banner.png" alt="">
+                    </div>
+                    <div class="col-lg-5 no-padding">
+                        <div class="login-box">
+                            <h5>eMandate registration for SRA Loan Account
+                            </h5>
+
+                            <div class="login-row row no-margin">
+                                <label for=""><i class="fa money-bag"></i> OTP*</label>
+                                <input type="text" class="form-control form-control-sm">
+                            </div>
+							
+							
+							
+
+                            <div class="login-row row no-margin">OTP has been send to the registered mobile number ending with ******1286. this OTP will be valid for 180 seconds.
+                            </div>
+							
+							<div class="login-row btnroo row no-margin">
+                                if not recieved &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <button class="btn btn-primary btn-sm"> Resend OTP </button>
+                               
+                            </div>
+
+                           
+
+                             <div class="login-row btnroo row no-margin">
+                               <button class="btn btn-primary btn-sm"> Submit </button>
+                               
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+    <script src="assets/js/script.js"></script>
+</html>

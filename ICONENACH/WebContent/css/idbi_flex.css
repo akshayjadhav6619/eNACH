@@ -1,0 +1,35 @@
+#idbi_flex_head{
+	background: url(../images/bg_img/head_bg.gif) repeat-x;
+    width: 100%;
+    height: 45px;
+    display:inline-block;
+    
+}
+
+#idbi_flex{
+	background: url(../images/bg_img/logo-bg-slice.gif) repeat-x;
+    width: 100%;
+    height: 45px;
+    display:inline-block;
+    
+}
+/* #top_div_part1{
+width:100% ;
+height:10px;
+background:url(images/bg_img/logo-bg-slice.gif) repeat-x;
+
+}
+ */
+#idbi_flex_below{
+	background: url(../images/bg_img/white_line.gif) repeat-x;
+    width: 100%;
+    height: 20px;
+    display:inline-block;
+    
+}
+/* #top_div_part_below{
+width:100% ;
+height:10px;
+background:url(images/bg_img/white_line.gif) repeat-x;
+
+}sa	zx */
